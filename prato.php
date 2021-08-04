@@ -35,6 +35,8 @@
                     }
                 }
                 ?>
+
+                <?php if($prato_nome != NULL) {?>
                 <div class="product-section">
                     <div class="product-info small-12 large-5 columns no-padding">
                         <h3><?php echo $prato_nome?></h3>
@@ -51,9 +53,12 @@
                     </div>
 
                 </div>
+                <?php } else{
+                    echo 'Prato nao encontrado!' . '<br>'; 
+                }?>
 
                 <div class="go-back small-12 columns no-padding">
-                    <a href="cardapio.html"><< Voltar ao Cardápio</a>
+                    <a href="cardapio.php"><< Voltar ao Cardápio</a>
                 </div>
 
             </div>
