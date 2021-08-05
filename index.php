@@ -163,7 +163,7 @@
                             
                             <input type="datetime-local" name="data" class="field" placeholder="Data e hora" required/>
 
-                            <input type="text" name="data" class="field" placeholder="Número de pessoas" required/>
+                            <input type="text" name="num_pessoas" class="field" placeholder="Número de pessoas" required/>
 
                             <input type="submit" name="submit" value="Reservar"/>
 
@@ -172,7 +172,29 @@
 
                     </form>
                     <?php 
+                        function clean_input($input){
+                            $input = trim($input);
+                            $input = stripslashes($input);
+                            $input = htmlspecialchars($input);
+                            
+                            return $input;
+                        }
                     
+                        
+                        if($_SERVER['REQUEST_METHOD'] == 'POST') {
+                           $nome = $_POST['nome'];
+                           $email = $_POST['email'];
+                           $mensagem = $_POST['mensagem'];
+                           $telefone = $_POST['telefone'];
+                           $data = $_POST['data'];
+                           $numero = $_POST['num_pessoas'];
+                        }
+                            $nome = clean_input($nome);
+                           $email = clean_input($email);
+                           $mensagem = clean_input($mensagem);
+                           $telefone = clean_input($telefone);
+                           $data = clean_input($data);
+                           $numero = clean_input($numero);
                     ?>
                 </div>
 
