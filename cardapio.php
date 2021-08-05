@@ -78,7 +78,7 @@
                                         </div>
                               <?php }
                             } else{
-                                'Nao ha pratos';
+                                echo 'Nao ha pratos';
                             }
                         }
                     ?>   

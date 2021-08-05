@@ -31,7 +31,7 @@
                             $prato_calorias = $row['calorias'];
                        }
                     } else{
-                        'Nao ha destaques';
+                        echo 'Nao ha destaques';
                     }
                 }
                 ?>

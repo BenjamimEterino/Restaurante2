@@ -145,13 +145,13 @@
 
                 <div class="reservation-form small-12 columns no-padding">
 
-                    <form>
+                    <form action="index.php" method="post">
 
                         <div class="form-part1 small-12 large-8 xlarge-7 columns no-padding">
                     
-                            <input type="text" name="nome" class="field" placeholder="Nome completo"/>
+                            <input type="text" name="nome" class="field" placeholder="Nome completo" required/>
                             
-                            <input type="text" name="email" class="field" placeholder="E-mail"/>
+                            <input type="email" name="email" class="field" placeholder="E-mail" required/>
                             
                             <textarea type="text" name="mensagem" class="field" placeholder="Mensagem"></textarea>
 
@@ -159,11 +159,11 @@
                         </div>
 
                         <div class="form-part2 small-12 large-3 xlarge-3 end columns no-padding">
-                            <input type="text" name="telefone" class="field" placeholder="Telefone"/>
+                            <input type="text" name="telefone" class="field" placeholder="Telefone" required/>
                             
-                            <input type="datetime-local" name="data" class="field" placeholder="Data e hora"/>
+                            <input type="datetime-local" name="data" class="field" placeholder="Data e hora" required/>
 
-                            <input type="text" name="data" class="field" placeholder="Número de pessoas"/>
+                            <input type="text" name="data" class="field" placeholder="Número de pessoas" required/>
 
                             <input type="submit" name="submit" value="Reservar"/>
 
@@ -171,6 +171,9 @@
 
 
                     </form>
+                    <?php 
+                    
+                    ?>
                 </div>
 
             </div>
