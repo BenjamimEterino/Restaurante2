@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Restô Bar</title>
+        <title>Moza Food</title>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/slick.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -26,7 +26,7 @@
 						<a href="index.php" title="home">
 							<div class="table">
 								<div class="table-cell">
-									<h1>Restô Bar</h1>
+									<h1>Moza Food</h1>
 								</div>
 							</div>
 						</a>

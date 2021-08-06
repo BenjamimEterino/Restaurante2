@@ -82,7 +82,7 @@
         <script src="js/foundation.min.js"></script>
         <script>
             function initMap() {
-            var local = {lat: -22.971068, lng: -43.186851};
+            var local = {lat: -25.976342174861454, lng: 32.57681038266253};
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 16,
                 center: local,
