@@ -12,12 +12,12 @@
                     </div>
                     
                     <div class="contato small-5 medium-3 small-offset-1 medium-offset-0 columns">
-                        <h4 class="footer-section-title">Contato</h4>
+                        <h4 class="footer-section-title">Contacto</h4>
                         <p>
-                            Rua Nossa senhora de Copacabana, 400<br>
-                            Rio de Janeiro/RJ<br>
-                            T. 2245-0977<br>
-                            contato@restobar.com.br
+                            Av. 25 de Setembro, 400<br>
+                            Maputo<br>
+                            T. 846341776<br>
+                            contato@mozafood.com.mz
                         </p>
                     </div>
                     

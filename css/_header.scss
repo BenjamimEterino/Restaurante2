@@ -1,5 +1,5 @@
 
-/* Variáveis *******************************************************************************/
+/* Variáveis */
 
 $topbar-height-large: 90px;
 $topbar-height-medium: 80px;
@@ -7,9 +7,9 @@ $topbar-height-small: 70px;
 
 $menu_li_color: #FFF;
 $sliding_menu_color: #FFF;
-$topbar_color: $color_01;;
+$topbar_color: $color_01;
 
-$header-shadow: rgba(0, 0, 0, 0.12);
+$header-shadow: rgba(208, 211, 23, 0.12);
 
 
 
@@ -19,7 +19,7 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-/* Global Header Styles ********************************************************************/
+/* Global Header Styles */
 
 
    header {
@@ -85,7 +85,7 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-/* Main Header Styles ****************************************************/
+/* Main Header Styles*/
 
    .main-header {
       height: $topbar-height-small;
@@ -111,7 +111,7 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-/* Sliding Header Styles (Sliding Menu) ****************************************************/
+/* Sliding Header Styles (Sliding Menu)*/
     
       .sliding-header-menu-outer {
          position: fixed;
@@ -159,13 +159,11 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-/* **********************************************************************************************
-***********************************   MEDIA QUERIES   ******************************************* 
-********************************************************************************************** */
 
 
-// Small Screens ****************************************************************************
-/* max-width 640px *********************************************************************/
+
+// Small Screens
+/* max-width 640px*/
 
    @media only screen and (max-width: 40em) {
       
@@ -216,8 +214,8 @@ $header-shadow: rgba(0, 0, 0, 0.12);
     
 
 
-// Medium Screens ***************************************************************************
-    /* min-width 641px and max-width 1023px ************************************************/
+// Medium Screens
+    /* min-width 641px and max-width 1023px*/
 
    @media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
 
@@ -273,8 +271,8 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-// Large Screens ****************************************************************************
-/* min-width 1024px and max-width 1440px ***********************************************/
+// Large Screens
+/* min-width 1024px and max-width 1440px*/
 
    @media only screen and (min-width: 64em) and (max-width: 90em) {
         
@@ -306,8 +304,8 @@ $header-shadow: rgba(0, 0, 0, 0.12);
 
 
 
-// Extra Large Screens **********************************************************************
-/* min-width 1441px ********************************************************************/
+// Extra Large Screens 
+/* min-width 1441px*/
 
    @media only screen and (min-width: 90.063em){
 
